@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #999;
+}
+a:hover {
+    text-decoration: underline;
+}
+h1 {
+    font-size: 3em;
+    font-family:"PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+h2 {
+    font-size:34px
+   }
+h3 {    
+    font-size: 28px;
+}
+p {
+    margin:0 0 13px;
+   }
+.site-header {
+    margin-top:70px;
+    text-align:center
+}
+.site-title a {
+    color: #333;
+    text-decoration: none;
+    font-size: 50px;
+    line-height: 1;
+}
+@media (min-width: 992px) {
+    .container {
+        width:970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+     width:1170px;
+    }
+   }
+.container {
+    margin-right:auto;
+    margin-left:auto;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.article-container:after {
+    content:" ";
+    display:table;
+    clear: both;
+   }
+.col-sm-6 {
+    float: left;
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    border-radius: 4px;
+}
+.btn {
+    display:inline-block;
+    margin-bottom:0;
+    font-weight:normal;
+    text-align:center;
+    vertical-align:middle;
+    cursor:pointer;
+    background-image:none;
+    border:1px solid transparent;
+    white-space:nowrap;
+    padding:6px 12px;
+    font-size:16px;
+    line-height:1.625;
+    border-radius:4px;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+   }
+@media (min-width: 992px) {
+   .col-md-3 {
+    width: 20%;
+    float: left;
+}
+}
+.panel {
+    border:1px solid #ddd;
+    border-radius:4px;
+}
+.visible-md-block {
+    display:none !important;
+}
+@media (min-width: 992px) {
+    .visible-md-block {
+        display:block !important;
+    }
+}
+.panel-default>.panel-heading {
+    color:#333;
+    background-color:#f5f5f5;
+    border-color:#ddd
+   }
+.panel-heading {
+    padding:10px 15px;
+    border-top-right-radius:3px;
+    border-top-left-radius:3px
+    
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.article-date {
+ font-size:15px;
+ line-height:1;
+ color:#777
+}
+.list-group {
+    padding-left:0;
+   }
+.list-group-item {
+    position:relative;
+    display:block;
+    padding:10px 15px;
+    margin-bottom:-1px;
+    background-color:#fff;
+    border:1px solid #ddd;
+    border-width: 1px 0;
+}
+aside ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;    
+   }
+@media (min-width: 992px) {
+    .col-md-9 {
+        width: 75%;
+        float: left;
+    }
+}
+.col-md-3,
+.col-md-9 {
+    position:relative;
+    min-height:1px;
+    padding-left:15px;padding-right:15px;
+}
+.row {
+    margin-left:-15px;
+    margin-right:-15px;
+   }
+footer {
+    
+    clear: both; 
+    margin-top: 80px;
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    background: #fbfbfb;
+}
+footer ul {
+    list-style: none;
+}

@@ -1,0 +1,21 @@
+<aside class="col-md-3">
+    <div class="visible-md-block visible-lg-block">
+        <div class="panel panel-default sidebar">
+            <div class="panel-heading">
+                <h4 class="panel-title">Web tutorial</h4>
+            </div>
+            <div class="list-group">
+            <ul>
+                {% for item in site.data.web_tutorial_nav  %}
+                {% assign p = site.documents | where: "url", item.link | first %}
+                <li {%- if page.url == p.url %} class="current" {%- endif %}>
+                    <a class="list-group-item" href="{{ p.url }}">
+                    {{ p.menu_name | default: p.title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            </div>
+        </div>
+    </div>
+</aside>
