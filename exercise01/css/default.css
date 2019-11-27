@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+h1 {
+    font-size: 3em;
+    font-family:"PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 13px;
+}
+h2 {
+    font-size:34px
+   }
+h3 {    
+    font-size: 28px;
+}
+p {
+    margin:0 0 13px;
+   }
+.site-header {
+    padding-top:70px;
+    text-align:center
+}
+.site-title a {
+    color: #333;
+    text-decoration: none;
+    font-size: 50px;
+    line-height: 1;
+}
+.site-title  {
+    padding-bottom: 40px;
+}
+footer {
+    clear: both; 
+    margin-top: 30px;
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    background: #fbfbfb;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+}
+footer ul {
+    list-style: none;
+}
+@media (min-width: 992px) {
+    footer ul li {
+        width: 33.3332%;
+    }
+}
+footer ul li {
+    line-height: 1.5em;
+}
+/*
+#参考文献, #リンク{
+    display: none;
+}
+#参考文献+p, #リンク+p{
+    display: none;
+}

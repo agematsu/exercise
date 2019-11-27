@@ -1,12 +1,17 @@
 ---
 layout: default
 ---
-<article class="row">
-    {% include web_tutorial_contents.html %}
-<div class="col-md-9">
-    <h1>{{ page.title }}</h1>
-    <time class"article-date> {{ page.date | date:"%m月 %d %Y"}}</time>
-    
-    {{ content }}
+<link rel="stylesheet" type="text/css" href="/css/web_tutorial.css">
+<div class="container article-container">
+	<article class="row">
+        {% include web_tutorial_contents.html %}
+    <div class="col-md-9">
+        <h1 class="article-title">{{ page.title }}</h1>
+        <time class"article-date> {{ page.date | date:"%m月 %d %Y"}}</time>
+		<div class="article-content">
+            {{ content }}
+        </div>
+    </div>
+    </article>			
 </div>
-</article>
+<!-- /.container -->
