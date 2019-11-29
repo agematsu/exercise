@@ -85,6 +85,25 @@ aside li.current a {
         float: left;
     }
 }
+.show-on-mobiles {
+    display:none
+}
+@media screen and (max-width: 568px) {
+.show-on-mobiles {
+    display:block !important;
+}
+a .show-on-mobiles {
+    display:inline !important
+}
+}
+.docs-nav-mobile select {
+ padding:3px;
+ font-size:20px;
+ width:100%;
+ background:#ddd;
+ border-color:transparent;
+ border-radius:5px;
+}
 .article-title {
     margin-top: 0;
 }

@@ -1,0 +1,11 @@
+<div class="docs-nav-mobile col-md-9 whole show-on-mobiles">
+        <select onchange="if (this.value) window.location.href=this.value">
+          <option value="">Web tutorial</option>
+            {% for item in site.data.web_tutorial_nav %}
+              {% assign p = site.documents | where: "url", item.link | first %}
+              <option value="{{ p.url }}">
+                {{ p.menu_name | default: p.title }}
+              </option>
+            {% endfor %}
+        </select>
+      </div>
