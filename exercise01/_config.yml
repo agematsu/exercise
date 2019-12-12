@@ -1,15 +1,17 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+
 collections:
   library:
     output: true
     permalink: /:path/:name/:output_ext
+  blog:
+    output: true
 plugins:
   - jekyll-redirect-from
 defaults:
-  -
-    scope:
+  - scope:
       path: "_library/Web"
     values:
       layout: "web_tutorial"
+

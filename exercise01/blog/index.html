@@ -1,0 +1,12 @@
+---
+layout: page
+---
+<ul>
+    {% for item in site.blog %}
+      <li>
+        <a href="{{ item.url}}">{{ item.title }}</a>
+      </li>
+    {% endfor %}
+</ul>
+
+
