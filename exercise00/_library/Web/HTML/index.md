@@ -13,7 +13,7 @@ Webページは単なるテキストファイルで、テキストをHTMLタグ�
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Web Portfolio of Marco</title>
+    <title>タイトル</title>
   </head>
   <body>
     <h1>タイトル</h1>

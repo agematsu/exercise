@@ -13,7 +13,7 @@ Webページは単なるテキストファイルで、テキストをHTMLタグ�
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Web Portfolio of Marco</title>
+    <title>タイトル</title>
   </head>
   <body>
     <h1>タイトル</h1>
@@ -26,8 +26,12 @@ Webページは単なるテキストファイルで、テキストをHTMLタグ�
 <img src="../HTML/html_output.png">  
 
 このように出力されると思います。
-## タグ,属性,要素
+
+## HTMLの要素
+<html></html>
+### 属性
 リンクの書き方
 <p></P>
 
 ## 参考文献
+[HTMLの要素](http://itref.fc2web.com/html/element.html)  
