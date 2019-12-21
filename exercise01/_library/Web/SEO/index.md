@@ -1,4 +1,4 @@
 ---
-title: "SEO"
-permalink: /Web/SEO/
+title: "SEO対策"
+permalink: /Web/SEO対策/
 ---

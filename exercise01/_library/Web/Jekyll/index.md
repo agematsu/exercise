@@ -36,4 +36,5 @@ Jekyll serve
 ##  参考文献
 [Webjeda](https://blog.webjeda.com/tags/)  
 [Jekyll](https://jekyllrb.com)  
-[Jekyll[日本語]](https://jekyllrb-ja.github.io/)
+[Jekyll[日本語]](https://jekyllrb-ja.github.io/)  
+[New option: create a blank site, without a template by default #5260](https://github.com/jekyll/jekyll/issues/5260)
