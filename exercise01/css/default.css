@@ -69,8 +69,13 @@ pre {
     color:#333;
     background-color:#f5f5f5;
     border:1px solid #ccc;
-    border-radius:4px
+    border-radius:4px;
+    white-space: pre-wrap;
 }
+.pre-scrollable {
+    max-height: 340px;
+    overflow-y: scroll;
+  }
 .note{
  background:#fff3d4;
  border-color:#f6b73c;

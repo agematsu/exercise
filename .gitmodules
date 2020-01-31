@@ -1,3 +1,0 @@
-[submodule "quickstart5/themes/ananke"]
-	path = quickstart5/themes/ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git

@@ -19,6 +19,7 @@ FirefoxでHTMLファイルを開くには、メニューボタンから、ファ
 ## エディタ
 HTMLファイルはテキストエディタでも書くことが出来ますが、利便性を考えてIDEを使うことをおすすめします。
 IDEとはIntegrated development environmentの略で、テキストエディタを進化させたようなものです。
-IDEはプログラミングするときにも使うので、今のうちに慣れておくと便利です。  
+IDEはプログラミングするときにも使うので、今のうちに慣れておくと便利です。
+ 
 IDEには色々ありますが、Microsoftが出しているVisual Studio Code(無料)をここではおすすめしておきます。
 VSCode以外では、AtomやBracketなどのIDEがあります。

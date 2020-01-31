@@ -17,7 +17,7 @@ URLはNelifyから割り当てられたものが使えます。個別のURLを�
 
 ### Step.2 Netlifyにアカウントを作ってサインインします。
 
-### Step.X Jekyllをセッティグします。
+### Step.X Hugoをセッティグします。
 
 
 

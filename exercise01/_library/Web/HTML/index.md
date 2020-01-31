@@ -14,17 +14,19 @@ Webページは単なるテキストファイルで、テキストをHTMLタグ�
 <html>
   <head>
     <meta charset="utf-8">
-    <title>タイトル</title>
+    <title>My first page</title>
   </head>
   <body>
-    <h1>タイトル</h1>
-    <p>テキスト</p>
+    <h1>はじめに</h1>
+    <p>これは、練習用のページです。</p>
   </body>
 </html>
 ```
+
+
 このファイルを開くと、ブラウザが立ち上がり、  
 
-<img src="../HTML/html_output.png">  
+<a href="../HTML/exercise.html"><img src="../HTML/html_output.png"></a>  
 
 このように出力されると思います。
 <div class="note">
@@ -44,13 +46,20 @@ HTML文章の最初は、<code><!DOCTYPE html></code>で始めます。
 - <code>html</code>要素は文書のはじめと終わりを示します。
 - <code>head</code>要素は文書のメタデータを内包する要素です。
 - <code>meta</code>要素は文書のメタデータを指定します。
-- <code>title</code>要素は
-- <code>body</code>要素は
+- <code>title</code>要素は文書のタイトルを表します。
+- <code>body</code>要素は文書の本体を記述します。
 - <code>h1,h2,h3,h4,h5,h6</code>要素はセクションの見出しを表します。
-- <code>p</code>要素は
+- <code>p</code>要素は段落を表します。
 
 ### 属性
-リンクの書き方
+要素に情報を付加するものとして、属性というものがあります。
+属性の書き方は、以下のように開始タグの中に属性名と属性値を書きます。
+例として、リンクの書き方を見てみると、以下のようになります。
+```
+<a href="mqq.jp">My website</a>
+```
+<a href="https://mqq.jp">My website</a>
+
 ## 画像の挿入
 画像を挿入するには、`<img>` タグを使います。
 
@@ -68,10 +77,9 @@ HTML文章の最初は、<code><!DOCTYPE html></code>で始めます。
 </ul> 
 
 ## マークダウン
-マークダウンとは、HTMLを簡略化したマークアップ言語です。マークダウンで書いた文書は表示するときはHTMLに変換されて表示されます。そのような長所から、記事を書くのに適しています。  
-最近では、QiitaやGithubのデフォルトのノートとしても使われていることから、人気が出てきていることがわかります。
+マークダウンとは、HTMLを簡略化したマークアップ言語です。マークダウンで書いた文書は表示するときはHTMLに変換されて表示されます。そのような長所から、記事を書くのに適しています。最近では、QiitaやGithubのデフォルトのノートとしても使われていることから、人気が出てきていることがわかります。
 
-### 段落と改行
+### 改行と段落
 
 
 ## 参考文献
